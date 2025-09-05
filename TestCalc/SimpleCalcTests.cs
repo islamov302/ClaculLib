@@ -11,6 +11,7 @@ public class SimpleCalcTests
     {
         var result = SimpleCalc.EvaluateOrError(expr);
         Assert.Equal(expected, result);
+
     }
 
     [Fact]
